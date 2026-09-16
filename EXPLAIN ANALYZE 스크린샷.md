@@ -1,4 +1,4 @@
-# SQL Query Optimization Analysis
+# SQL 쿼리 최적화 과제 
 
 ## 1강 2장
 <table>
