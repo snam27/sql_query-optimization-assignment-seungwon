@@ -55,16 +55,16 @@
 ---
 
 ## 3강 1장
-* **EXPLAIN 결과**
-  <br>
-  <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/2e0a3775-fb1c-4b10-81dd-d8cd1317feb4" />
+EXPLAIN 결과: 
+
+<img width="65%" alt="Image" src="https://github.com/user-attachments/assets/2e0a3775-fb1c-4b10-81dd-d8cd1317feb4" />
 
 ---
 
 ## 5강 1장
-* **EXPLAIN ANALYZE 결과**
-  <br>
-  <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/ea5e779f-2e25-457b-b2c4-1c510e3a0fd2" />
+EXPLAIN ANALYZE 결과: 
+
+<img width="65%" alt="Image" src="https://github.com/user-attachments/assets/ea5e779f-2e25-457b-b2c4-1c510e3a0fd2" />
 
 ---
 
