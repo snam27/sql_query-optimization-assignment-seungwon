@@ -1,24 +1,87 @@
-# 🚀 SQL Query Optimization Report
+# SQL Query Optimization Analysis
 
-## 📊 Before vs After 비교
-
+## 1강 2장
 <table>
   <tr>
-    <td align="center"><b>🔴 튜닝 전 (Before)</b></td>
-    <td align="center"><b>🟢 튜닝 후 (After)</b></td>
+    <td align="center"><b>EXPLAIN 결과</b></td>
+    <td align="center"><b>EXPLAIN ANALYZE 결과</b></td>
   </tr>
   <tr>
     <td align="center">
-      <img width="100%" alt="Before Plan" src="https://github.com/user-attachments/assets/29018891-1040-4e06-97ff-8b81f05ea115" />
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/29018891-1040-4e06-97ff-8b81f05ea115" />
     </td>
     <td align="center">
-      <img width="100%" alt="After Plan" src="https://github.com/user-attachments/assets/1c981d96-ff22-46f7-8a92-c0f05c0af170" />
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/1c981d96-ff22-46f7-8a92-c0f05c0af170" />
     </td>
   </tr>
 </table>
 
 ---
 
-## 💡 주요 개선 사항 (Summary)
-* **Execution Time:** `112.791 ms` ➡️ `0.065 ms` (성능 대폭 향상)
-* **Scan Method:** `Parallel Seq Scan` ➡️ `Bitmap Index Scan` (풀스캔 제거)
+## 2강 1장 - 인덱스 생성 전후 결과
+<table>
+  <tr>
+    <td align="center"><b>생성 전 EXPLAIN ANALYZE 결과</b></td>
+    <td align="center"><b>생성 후 EXPLAIN ANALYZE 결과</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/116fc787-610e-4f38-8d52-aecda91d443a" />
+    </td>
+    <td align="center">
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/846dd1bd-fb91-4592-aed4-09b8ac976df1" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 2강 2장 - 인덱스 생성 전후 결과
+<table>
+  <tr>
+    <td align="center"><b>생성 전 EXPLAIN ANALYZE 결과</b></td>
+    <td align="center"><b>생성 후 EXPLAIN ANALYZE 결과</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/cf7ab7b4-6da8-4b89-8df4-62dc8bbec012" />
+    </td>
+    <td align="center">
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/144b7959-037f-4e3d-9b79-d74259dad65c" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 3강 1장
+* **EXPLAIN 결과**
+  <br>
+  <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/2e0a3775-fb1c-4b10-81dd-d8cd1317feb4" />
+
+---
+
+## 5강 1장
+* **EXPLAIN ANALYZE 결과**
+  <br>
+  <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/ea5e779f-2e25-457b-b2c4-1c510e3a0fd2" />
+
+---
+
+## 5강 2장 - 인덱스 생성 전후 결과
+<table>
+  <tr>
+    <td align="center"><b>생성 전 EXPLAIN ANALYZE 결과</b></td>
+    <td align="center"><b>생성 후 EXPLAIN ANALYZE 결과</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/7f755214-a5bb-480a-87e0-f90c47441a26" />
+    </td>
+    <td align="center">
+      <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/f37e8d43-13c5-4ee2-9a2e-cd22517ce032" />
+    </td>
+  </tr>
+</table>
+
+
